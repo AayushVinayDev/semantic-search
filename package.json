@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@langchain/community": "^0.2.23",
     "@langchain/openai": "^0.2.5",
     "@pinecone-database/pinecone": "^3.0.0",
     "@radix-ui/react-slot": "^1.1.0",

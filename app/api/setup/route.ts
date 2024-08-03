@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import { Pinecone } from '@pinecone-database/pinecone'
 import { TextLoader } from 'langchain/document_loaders/fs/text'
 import { DirectoryLoader } from 'langchain/document_loaders/fs/directory'
-import { PDFLoader } from 'langchain/document_loaders/fs/pdf'
+import { PDFLoader } from '@langchain/community/document_loaders/fs/pdf'
 import {
   createPineconeIndex,
   updatePinecone
