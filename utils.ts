@@ -1,6 +1,6 @@
-import { OpenAIEmbeddings } from 'langchain/embeddings/openai'
+import { OpenAIEmbeddings } from '@langchain/openai'
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter'
-import { OpenAI } from 'langchain/llms/openai'
+import { OpenAI } from '@langchain/openai'
 import { loadQAStuffChain } from 'langchain/chains'
 import { Document } from 'langchain/document'
 
